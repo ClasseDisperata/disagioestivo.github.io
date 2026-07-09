@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disagio Estivo™ un sito di Classe Disperata</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Consolas', 'Monaco', monospace;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #58a6ff;
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px #58a6ff50;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #8b949e;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+        
+        .console {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 30px;
+            color: #7ee787;
+        }
+        
+        .console::before {
+            content: '> ';
+            color: #58a6ff;
+        }
+        
+        h2 {
+            color: #f85149;
+            margin: 40px 0 20px 0;
+            border-bottom: 2px solid #30363d;
+            padding-bottom: 10px;
+        }
+        
+        .meme-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: all 0.2s;
+        }
+        
+        .meme-card:hover {
+            border-color: #58a6ff;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px #58a6ff20;
+        }
+        
+        .meme-title {
+            color: #ffa657;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        
+        .meme-text {
+            color: #c9d1d9;
+            margin-bottom: 10px;
+        }
+        
+        .meme-footer {
+            color: #8b949e;
+            font-size: 0.9rem;
+            text-align: right;
+        }
+        
+        .btn {
+            background: #238636;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 1rem;
+            margin: 10px 5px;
+            transition: all 0.2s;
+        }
+        
+        .btn:hover {
+            background: #2ea043;
+            transform: scale(1.05);
+        }
+        
+        .btn-red {
+            background: #da3633;
+        }
+        
+        .btn-red:hover {
+            background: #f85149;
+        }
+        
+        .center {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+        
+        .blink {
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Disagio Estivo<span class="blink">_</span></h1>
+        <p class="subtitle">Edizione: Milano, Cameretta, Ore 03:47 AM</p>
+        
+        <div class="console">Volevi che finiva la scuola, ora ti manca la scuola</div>
+        <div class="console">Tutti stiamo in cameretta a fissare il vuoto</div>
+        <div class="console">Ti mancano gli amici</div>
+        <div class="console">Ma tranquillo! ci sono i MEME di Disagio Estivo™ che ti tirano su il morale</div>
+        
+        <h2>📋 Il nostro Listino meme</h2>
+        
+        <div class="meme-card">
+            <div class="meme-title">Quando realizzi che mancano 2 MESI per settembre</div>
+            <div class="meme-text">
+                Io: "Dai quest'estate sarò produttivo"<br>
+                Io alle 3 di notte: *guarda il soffitto e conta i bug della vita*
+            </div>
+            <div class="meme-footer">- Relatable: 100%</div>
+        </div>
+        
+        <div class="meme-card">
+            <div class="meme-title">POV: sei un dev e provi a socializzare</div>
+            <div class="meme-text">
+                Cervello: "Dì qualcosa di normale"<br>
+                Io: "Quindi... tabs o spaces?"<br>
+                *silenzio imbarazzante*<br>
+                Io: *torna a casa a compilare kernel per coping*
+            </div>
+            <div class="meme-footer">- Skill: Socializzazione -99</div>
+        </div>
+        
+        <div class="meme-card">
+            <div class="meme-title">La routine estiva del dev medio</div>
+            <div class="meme-text">
+                14:00 - Sveglia<br>
+                14:05 - "Oggi faccio quel progetto"<br>
+                04:00 - *sta ancora scegliendo il nome della cartella*<br>
+                04:01 - "Vabbè domani"
+            </div>
+            <div class="meme-footer">- Loop infinito detected</div>
+        </div>
+        
+        <div class="meme-card">
+            <div class="meme-title">Quando il prof diceva "ci vediamo a settembre"</div>
+            <div class="meme-text">
+                Io a giugno: "finalmente libertà"<br>
+                Io a luglio: *ricarica la pagina di Classroom sperando in compiti*<br>
+                Io ora: "Prof mi manca pure la sua voce che spiega gli array"
+            </div>
+            <div class="meme-footer">- Sindrome di Stoccolma: attivata</div>
+        </div>
+        
+        <div class="meme-card">
+            <div class="meme-title">Toccare l'erba: speedrun any%</div>
+            <div class="meme-text">
+                Step 1: Apri finestra<br>
+                Step 2: Guarda fuori<br>
+                Step 3: "Troppo sole"<br>
+                Step 4: Chiudi finestra<br>
+                Record personale: 4.7 secondi
+            </div>
+            <div class="meme-footer">- Achievement: Vitamina D -500</div>
+        </div>
+        
+        <div class="center">
+            <button class="btn" onclick="alert('Messaggio inviato al vuoto cosmico. Nessuno risponderà.')">
+                console.log("mi mancate")
+            </button>
+            <button class="btn btn-red" onclick="alert('Errore: estate troppo lunga. Provare a spegnere e riaccendere settembre.')">
+                throw new Error("estate infinita")
+            </button>
+            <button class="btn" onclick="document.body.style.transform='rotate(1deg)'; setTimeout(()=>document.body.style.transform='', 200)">
+                sudo fix_mood
+            </button>
+        </div>
+        
+        <footer>
+            Made with 💀 e troppa Monster<br>
+            Postato su GitHub Pages perché siamo così poveri che non ci possiamo permettere un dominio come "disagioestivo.com", che costa circa 20 euro al mese, un sacco<br>
+            Se leggi questo, manda un meme. Sul serio.<br>
+            <code>© 2026 Classe Disperata - Tutti i diritti riservati, Disagio Estivo è di proprietà di Classe Disperata</code>
+        </footer>
+    </div>
+    
+    <script>
+        // Easte egg da dev
+        console.log("%cOi, che ci fai nella console?", "color: #58a6ff; font-size: 20px;");
+        console.log("%cSe sei qui sei dei nostri. Manda un DM.", "color: #7ee787; font-size: 14px;");
+        
+        // Contatore disperazione
+        let clicks = 0;
+        document.addEventListener('click', () => {
+            clicks++;
+            if(clicks === 10) {
+                alert('Bro hai cliccato 10 volte... stai bene?');
+            }
+            if(clicks === 20) {
+                alert('Ok ora mi preoccupo davvero');
+            }
+        });
+    </script>
+</body>
+</html>
